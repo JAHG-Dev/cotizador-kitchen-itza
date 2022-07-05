@@ -15,12 +15,12 @@ var readHTMLFile = function(path, callback) {
 }
 
 let transporter = nodemailer.createTransport(smtpTransport({
-    host: 'bh7114.banahosting.com',
+    host: '',
     port: 465,
     secure: true,
     auth: {
-        user: 'cotizaciones@kitchenitza.com.mx',
-        pass: 'Y08Xyr14*H1B'
+        user: '',
+        pass: ''
     }
 }));
 
